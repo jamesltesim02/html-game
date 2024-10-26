@@ -11,8 +11,8 @@ Auth9G = function(gameid) {
 	this.identify = function(){};
 	this.ready = function(){};
 	this.readyDone = false;
-	this.baseUrl = "http://uinote.com/html-game";
-	this.gameUrl = "http://uinote.com/html-game";
+	this.baseUrl = "http://g.ohayo.cyou";
+	this.gameUrl = "http://g.ohayo.cyou";
 	this.init();
 }
 

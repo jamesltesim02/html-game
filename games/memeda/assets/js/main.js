@@ -7,8 +7,8 @@ var Config = {
     interval: 200
 },
     shareData = {
-        imgUrl: "http://uinote.com/html-game/games/memeda/logo.png",
-        timeLineLink: "http://uinote.com/html-game/games/memeda/index.html",
+        imgUrl: "http://g.ohayo.cyou/games/memeda/logo.png",
+        timeLineLink: "http://g.ohayo.cyou/games/memeda/index.html",
         tTitle: "show girl 么么哒",
         tContent: "爱我你就吻我吧"
     },
@@ -340,7 +340,7 @@ var Config = {
                                                 desc: l.desc,
                                                 title: l.title
                                             },
-                                                function () { document.location.href = "http://uinote.com/html-game/"; })
+                                                function () { document.location.href = "http://g.ohayo.cyou/"; })
                                         }), WeixinJSBridge.on("menu:share:timeline",
                                             function () {
                                                 var a = {
@@ -352,7 +352,7 @@ var Config = {
                                                     title: l.title
                                                 };
                                                 WeixinJSBridge.invoke("shareTimeline", a,
-                                                    function () { document.location.href = "http://uinote.com/html-game/"; })
+                                                    function () { document.location.href = "http://g.ohayo.cyou/"; })
                                             }))
                             },
                             !1)

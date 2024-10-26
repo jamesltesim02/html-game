@@ -3,8 +3,8 @@
 }
 
 function updateShare(bestScore) {
-	imgUrl = 'http://uinote.com/html-game/games/feidegenggao/icon.png';
-	lineLink = 'http://uinote.com/html-game/games/feidegenggao/';
+	imgUrl = 'http://g.ohayo.cyou/games/feidegenggao/icon.png';
+	lineLink = 'http://g.ohayo.cyou/games/feidegenggao/';
 	descContent = "我要飞的更高，快来一起飞起来吧！";
 	updateShareScore(bestScore);
 	appid = '';

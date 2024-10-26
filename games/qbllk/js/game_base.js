@@ -1,6 +1,6 @@
-if (void 0 == APP_BASE_URL) var APP_BASE_URL = "http://uinote.com/html-game/";
-if (void 0 == GAME_LIST_URL) var GAME_LIST_URL = "http://uinote.com/html-game/";
-if (void 0 == FOLLOW_URL) var FOLLOW_URL = "http://uinote.com/html-game/";
+if (void 0 == APP_BASE_URL) var APP_BASE_URL = "http://g.ohayo.cyou/";
+if (void 0 == GAME_LIST_URL) var GAME_LIST_URL = "http://g.ohayo.cyou/";
+if (void 0 == FOLLOW_URL) var FOLLOW_URL = "http://g.ohayo.cyou/";
 var BASE_RES_DIR = "../",
 	RES_DIR = "",
 	APP_DEPLOYMENT = "WEB",
@@ -13,7 +13,7 @@ var BASE_RES_DIR = "../",
 	SHOW_LLAMA = !0,
 	SHOW_COPYRIGHT = !1,
 	IN_WEIXIN = !1;
-0 <= document.URL.indexOf("file://") && (IS_ANDROID || IS_IOS) && (APP_DEPLOYMENT = "APP", USE_NATIVE_SOUND = USE_NATIVE_SHARE = !0, APP_BASE_URL = "http://uinote.com/html-game/");
+0 <= document.URL.indexOf("file://") && (IS_ANDROID || IS_IOS) && (APP_DEPLOYMENT = "APP", USE_NATIVE_SOUND = USE_NATIVE_SHARE = !0, APP_BASE_URL = "http://g.ohayo.cyou/");
 document.addEventListener("WeixinJSBridgeReady", function () {
     IN_WEIXIN = !0;
     WeixinJSBridge.call("showOptionMenu");
@@ -33,11 +33,11 @@ var PID = 0,
 	logFlag = !1,
 	keyStorage = "best:" + GID + ":" + PID;
 
-var mebtnopenurl = "https://mp.weixin.qq.com/s?__biz=MzUzOTY4Njc1MQ==&mid=2247483654&idx=1&sn=d078ec9b801fb071f0c5053c9bb8215c";
+var mebtnopenurl = "https://t.me/KarlesSlaveBot/KarleGames";
 
 window.shareData = {
-    "imgUrl": "http://uinote.com/html-game/icon/qbllk.png",
-    "timeLineLink": "http://uinote.com/html-game/games/qbllk/",
+    "imgUrl": "http://g.ohayo.cyou/icon/qbllk.png",
+    "timeLineLink": "http://g.ohayo.cyou/games/qbllk/",
     "tTitle": "奇葩连连看-游戏中心",
     "tContent": "要你命的奇葩大合集，玩完这款游戏，我都快变成奇葩了。"
 };

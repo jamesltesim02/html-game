@@ -2298,7 +2298,7 @@ var link, jsGame;
                 }
 
                 if (e.buttonLayout.released("moregame")) {
-                    location.href = "http://uinote.com/html-game/";
+                    location.href = "http://g.ohayo.cyou/";
                 }
 
                 if (e.buttonLayout.released("difficulty2")) {

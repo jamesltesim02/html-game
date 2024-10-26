@@ -359,10 +359,10 @@ tit = stscore;
 var tite = "";
 var DFW = {
     appId: "",
-    TLImg: "http://uinote.com/html-game/games/duimutou/icon.png",
-    url: "http://uinote.com/html-game/games/duimutou/",
+    TLImg: "http://g.ohayo.cyou/games/duimutou/icon.png",
+    url: "http://g.ohayo.cyou/games/duimutou/",
     title: "堆木头，简单的不得了，好玩的停不下",
-    desc: "玩法简单，但是玩的是技巧，反应，没有最高只有更高，来挑战下--关注游戏中心:uinote_weixin"
+    desc: "玩法简单，但是玩的是技巧，反应，没有最高只有更高，来挑战下--关注游戏中心:@KarlesSlaveBot"
 };
 var onBridgeReady = function() {
     WeixinJSBridge.on('menu:share:appmessage', function(argv) {
@@ -401,8 +401,8 @@ if (document.addEventListener) {
 /*
 updateShare(stscore);
 function updateShare(stscore) {
-imgUrl = 'http://uinote.com/html-game/games/duimutou/i/icon.png';
-lineLink = 'http://uinote.com/html-game/games/duimutou';
+imgUrl = 'http://g.ohayo.cyou/games/duimutou/i/icon.png';
+lineLink = 'http://g.ohayo.cyou/games/duimutou';
 descContent = "玩法简单，但是玩的是技巧，反应，没有最高只有更高，来挑战下！";
 updateShareScore(stscore);
 appid = '';

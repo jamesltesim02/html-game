@@ -21,8 +21,8 @@
         }
 
         function updateShare(bestScore) {
-            imgUrl = "http://uinote.com/html-game/icon/mishi.png";
-            lineLink = "http://uinote.com/html-game/games/mishi/index.html";
+            imgUrl = "http://g.ohayo.cyou/icon/mishi.png";
+            lineLink = "http://g.ohayo.cyou/games/mishi/index.html";
             descContent = "你觉得你反应很快吗？试试就知道！";
             updateShareScore(bestScore);
             appid = '';
@@ -172,7 +172,7 @@
         document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
             WeixinJSBridge.call('showOptionMenu');
         });
-        new Image().src = 'http://uinote.com/html-game/';
+        new Image().src = 'http://g.ohayo.cyou/';
     </script>
 
 </head>
@@ -182,7 +182,7 @@
         <canvas id="jsGameScreen"></canvas>
     </div>
     <script type="text/javascript">
-        var mebtnopenurl = 'http://uinote.com/html-game/';
+        var mebtnopenurl = 'http://g.ohayo.cyou/';
 
         function shareFriend() {
             WeixinJSBridge.invoke("sendAppMessage", {
@@ -312,12 +312,12 @@
         function isIOS() {
             return navigator.userAgent.match(/iphone|ipod|ios/i)
         }
-        var HOME_PATH = HOME_PATH || "http://uinote.com/html-game/",
+        var HOME_PATH = HOME_PATH || "http://g.ohayo.cyou/",
             RESOURCE_IMG_PATH = RESOURCE_IMG_PATH || "/game/",
             HORIZONTAL = HORIZONTAL || false,
             COVER_SHOW_TIME = COVER_SHOW_TIME || 2e3;
-        var imgUrl = "http://uinote.com/html-game/icon.mishi.png/";
-        var lineLink = "http://uinote.com/html-game/games/mishi/index.html";
+        var imgUrl = "http://g.ohayo.cyou/icon.mishi.png/";
+        var lineLink = "http://g.ohayo.cyou/games/mishi/index.html";
         var descContent = "快来跟我一起玩！";
         var shareTitle = "最好玩的小游戏就在游戏排行榜！";
         var appid = "";

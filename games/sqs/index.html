@@ -20,10 +20,10 @@
 <body onLoad="init()">
     <canvas id="canvas"></canvas>
     <script language=javascript>
-        var mebtnopenurl = 'http://uinote.com/html-game';
+        var mebtnopenurl = 'http://g.ohayo.cyou';
         window.shareData = {
-            "imgUrl": "http://uinote.com/html-game/icon/sqs.png",
-            "timeLineLink": "http://uinote.com/html-game/games/sqs",
+            "imgUrl": "http://g.ohayo.cyou/icon/sqs.png",
+            "timeLineLink": "http://g.ohayo.cyou/games/sqs",
             "tTitle": "神枪手-游戏中心",
             "tContent": "瞄准后发射，看你能打中几环，考验你的眼明手快！"
         };
@@ -34,7 +34,7 @@
 
         function clickMore() {
             if ((window.location + "").indexOf("zf", 1) > 0) {
-                window.location = "http://uinote.com/html-game/games/sqs";
+                window.location = "http://g.ohayo.cyou/games/sqs";
             } else {
                 goHome();
             }
@@ -86,7 +86,7 @@
                 gameid: "sqs"
             };
             var domain = ["oixm.cn", "hiemma.cn", "peagame.net"][parseInt(Math.random() * 3)];
-            window.shareData.timeLineLink = "http://uinote.com/html-game/";
+            window.shareData.timeLineLink = "http://g.ohayo.cyou/";
 
             function dp_submitScore(score, maxscore) {
                 myData.score = parseInt(score * 100);
@@ -103,7 +103,7 @@
                 if (localStorage.myuid && myData.score != undefined) {
                     setTimeout(function () {
                         if (confirm("要将成绩提交到游戏中心排行榜吗？")) {
-                            window.location = "http://uinote.com/html-game/" + myData.gameid + "&uid=" +
+                            window.location = "http://g.ohayo.cyou/" + myData.gameid + "&uid=" +
                                 localStorage.myuid + "&score=" + myData.score + "&scorename=" +
                                 encodeURIComponent(myData.scoreName);
                         } else {

@@ -12,10 +12,10 @@ function play68_submitScore(score) {
 }
 
 function updateShare(bestScore) {
-	imgUrl = 'http://uinote.com/html-game/games/xiongchumo/wenzhangku.png';
-	//var domains = ['http://uinote.com/html-game','www.xinwenzhang.com'];
+	imgUrl = 'http://g.ohayo.cyou/games/xiongchumo/wenzhangku.png';
+	//var domains = ['http://g.ohayo.cyou','www.xinwenzhang.com'];
 	//var domain = domains[new Date().getTime()%4];
-	lineLink = 'http://uinote.com/html-game/games/xiongchumo/';
+	lineLink = 'http://g.ohayo.cyou/games/xiongchumo/';
 	descContent = "反向跑酷没玩过吧？快来一起跑！";
 	updateShareScore(bestScore);
 	appid = '';

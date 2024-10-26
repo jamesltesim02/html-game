@@ -132,8 +132,8 @@
             language: (navigator.browserLanguage || navigator.language).toLowerCase()
         };
         window.shareData = {
-            "imgUrl": "http://uinote.com/html-game/icon/wzxgz.png",
-            "timeLineLink": "http://uinote.com/html-game/game/wzxgz",
+            "imgUrl": "http://g.ohayo.cyou/icon/wzxgz.png",
+            "timeLineLink": "http://g.ohayo.cyou/game/wzxgz",
             "tTitle": "围住小鬼子，你抓住了几个战犯！",
             "tContent": "壮志饥餐胡虏肉，笑谈渴饮匈奴血！"
         };
@@ -158,13 +158,13 @@
             $("#wxShareGuide").css("display", "none");
         }
 
-        var xhurl = "http://uinote.com/html-game";
+        var xhurl = "http://g.ohayo.cyou";
 
         function showme() {
             window.location.href = xhurl;
         };
 
-        var mebtnopenurl = "http://uinote.com/html-game";
+        var mebtnopenurl = "http://g.ohayo.cyou";
         document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
 
             WeixinJSBridge.on('menu:share:appmessage', function (argv) {

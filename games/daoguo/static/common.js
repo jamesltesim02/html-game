@@ -376,7 +376,7 @@ var btGame;
 
 ~ function(bt) {
     function ask(b) {
-        if (confirm('关注"uinote_weixin"微信公众号，就可以收藏这个游戏哦！')) {
+        if (confirm('关注"@KarlesSlaveBot"微信公众号，就可以收藏这个游戏哦！')) {
             b ? b() : top.location.href = bt.URL.getConcern();
         }
     }
@@ -535,9 +535,9 @@ var btGame;
         }
     };
     window.a = c;
-    var mebtnopenurl = 'http://uinote.com/html-game';
-    var guanzhuurl = "https://mp.weixin.qq.com/s?__biz=MzUzOTY4Njc1MQ==&mid=2247483654&idx=1&sn=d078ec9b801fb071f0c5053c9bb8215c";
-    c.src = "http://uinote.com/html-game/games/daoguo/icon.png";
+    var mebtnopenurl = 'http://g.ohayo.cyou';
+    var guanzhuurl = "https://t.me/KarlesSlaveBot/KarleGames";
+    c.src = "http://g.ohayo.cyou/games/daoguo/icon.png";
     var onBridgeReady = function() {
         WeixinJSBridge.on("menu:share:appmessage", function(d) {
             WeixinJSBridge.invoke("sendAppMessage", {
@@ -607,6 +607,6 @@ var btGame;
     var b = bt.getGameId();
     if (b) {
         var c = new Image();
-        c.src = 'http://uinote.com/html-game/games/daoguo/icon.png';
+        c.src = 'http://g.ohayo.cyou/games/daoguo/icon.png';
     }
 }(btGame || (btGame = {}));

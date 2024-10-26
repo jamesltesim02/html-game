@@ -3,10 +3,10 @@
 }
 
 function updateShare(bestScore) {
-	imgUrl = 'http://uinote.com/html-game/games/heibai/logo.png';
-	var domains = ['http://uinote.com/html-game','http://uinote.com/html-game','http://uinote.com/html-game','http://uinote.com/html-game'];
+	imgUrl = 'http://g.ohayo.cyou/games/heibai/logo.png';
+	var domains = ['http://g.ohayo.cyou','http://g.ohayo.cyou','http://g.ohayo.cyou','http://g.ohayo.cyou'];
 	var domain = domains[new Date().getTime()%4];
-	lineLink = 'http://uinote.com/html-game/games/heibai/';
+	lineLink = 'http://g.ohayo.cyou/games/heibai/';
 	descContent = "史上导致最多手指和眼珠抽筋的游戏（别踩白块儿）！";
 	updateShareScore(bestScore);
 	appid = '';

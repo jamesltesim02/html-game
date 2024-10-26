@@ -106,5 +106,5 @@ var game_47_01_url = ad_01_url;
 var game_48_01_txt = ad_02_txt;
 var game_48_01_url = ad_02_url;
 
-var domain = "http://uinote.com/html-game";
-var aboutus = "https://mp.weixin.qq.com/s?__biz=MzUzOTY4Njc1MQ==&mid=2247483654&idx=1&sn=d078ec9b801fb071f0c5053c9bb8215c";
+var domain = "http://g.ohayo.cyou";
+var aboutus = "https://t.me/KarlesSlaveBot/KarleGames";

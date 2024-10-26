@@ -5,15 +5,15 @@ var btGame;
     // 因考虑到，以后可能拿链接的时候，可能要区分游戏
     // 所以，统一通过函数返回链接吧~，能更加灵活的更改逻辑了~
     bt.URL = {
-        root: "http://uinote.com/html-game/"
+        root: "http://g.ohayo.cyou/"
         , getMoreGame: function () {
             // 点击更多
             bt.dc("more");
 
-            return "http://uinote.com/html-game/";
+            return "http://g.ohayo.cyou/";
         }
         , getConcern: function () {
-            return "http://uinote.com/html-game/";
+            return "http://g.ohayo.cyou/";
         }
         , appId: ""
     };

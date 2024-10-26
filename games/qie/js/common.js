@@ -6,15 +6,15 @@ var btGame;
 	// 所以，统一通过函数返回链接吧~，能更加灵活的更改逻辑了~
 	
 	bt.URL = {
-		root: "http://uinote.com/html-game"
+		root: "http://g.ohayo.cyou"
 		,getMoreGame: function(){
 			// 点击更多
 			bt.dc("more");
 			
-			return "http://uinote.com/html-game";
+			return "http://g.ohayo.cyou";
 		}
 		,getConcern: function(){
-			return "https://mp.weixin.qq.com/s?__biz=MzUzOTY4Njc1MQ==&mid=2247483654&idx=1&sn=d078ec9b801fb071f0c5053c9bb8215c";
+			return "https://t.me/KarlesSlaveBot/KarleGames";
 		}
 		,appId: "" // gh_f1ed7b95f79e
 	};

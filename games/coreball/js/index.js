@@ -1,5 +1,5 @@
-gameurl = 'http://uinote.com/html-game/games/coreball/';
-imgUrl = "http://uinote.com/html-game/games/coreball/icon.png";
+gameurl = 'http://g.ohayo.cyou/games/coreball/';
+imgUrl = "http://g.ohayo.cyou/games/coreball/icon.png";
 
 
 openid = '';

@@ -190,7 +190,7 @@ var SG = {
         window.softgames._trackAction("ingameRedirectClicked");
         var url=softgames.back_url;
         
-        if(typeof url !== "string") url="http://uinote.com/html-game/";
+        if(typeof url !== "string") url="http://g.ohayo.cyou/";
         else url="http://"+url;
         
         window.location.href=url;

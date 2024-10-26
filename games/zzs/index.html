@@ -99,10 +99,10 @@
         document.addEventListener("msvisibilitychange", onVisibilityChanged, false);
     </script>
     <script language=javascript>
-        var mebtnopenurl = 'http://uinote.com/html-game';
+        var mebtnopenurl = 'http://g.ohayo.cyou';
         window.shareData = {
-            "imgUrl": "http://uinote.com/html-game/icon/zzs.png",
-            "timeLineLink": "http://uinote.com/html-game/games/zzs",
+            "imgUrl": "http://g.ohayo.cyou/icon/zzs.png",
+            "timeLineLink": "http://g.ohayo.cyou/games/zzs",
             "tTitle": "涨姿势-游戏中心",
             "tContent": "涨姿势-游戏中心"
         };
@@ -113,7 +113,7 @@
 
         function clickMore() {
             if ((window.location + "").indexOf("zf", 1) > 0) {
-                window.location = "http://uinote.com/html-game/games/zzs";
+                window.location = "http://g.ohayo.cyou/games/zzs";
             } else {
                 goHome();
             }
@@ -156,7 +156,7 @@
         }, false);
     </script>
     <div id=share style="display: none">
-        <img width=100% src="http://uinote.com/html-game/games/zzs/share.png"
+        <img width=100% src="http://g.ohayo.cyou/games/zzs/share.png"
             style="position: fixed; z-index: 9999; top: 0; left: 0; display: "
             ontouchstart="document.getElementById('share').style.display='none';" />
     </div>
@@ -166,7 +166,7 @@
                 gameid: "zzs"
             };
             var domain = ["oixm.cn", "hiemma.cn", "peagame.net"][parseInt(Math.random() * 3)];
-            window.shareData.timeLineLink = "http://uinote.com/html-game/games/zzs";
+            window.shareData.timeLineLink = "http://g.ohayo.cyou/games/zzs";
 
             function dp_submitScore(score, step, percent) {
                 myData.score = parseInt(score);
@@ -184,7 +184,7 @@
                 if (localStorage.myuid && myData.score != undefined) {
                     setTimeout(function () {
                         if (confirm("要将成绩提交到游戏中心排行榜吗？")) {
-                            window.location = "http://uinote.com/html-game/";
+                            window.location = "http://g.ohayo.cyou/";
                         } else {
                             document.location.href = mebtnopenurl;
                         }

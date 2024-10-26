@@ -141,10 +141,10 @@
         egret_h5.startGame();
     </script>
     <script language=javascript>
-        var mebtnopenurl = 'http://uinote.com/html-game';
+        var mebtnopenurl = 'http://g.ohayo.cyou';
         window.shareData = {
-            "imgUrl": "http://uinote.com/html-game/icon/blglez.png",
-            "timeLineLink": "http://uinote.com/html-game/games/blglez",
+            "imgUrl": "http://g.ohayo.cyou/icon/blglez.png",
+            "timeLineLink": "http://g.ohayo.cyou/games/blglez",
             "tTitle": "帮龙叔捞儿子-每日游戏",
             "tContent": "帮龙叔捞儿子-每日游戏"
         };
@@ -155,7 +155,7 @@
 
         function clickMore() {
             if ((window.location + "").indexOf("zf", 1) > 0) {
-                window.location = "http://uinote.com/html-game/games/blglez";
+                window.location = "http://g.ohayo.cyou/games/blglez";
             } else {
                 goHome();
             }
@@ -212,7 +212,7 @@
                 gameid: "blglez"
             };
             var domain = ["oixm.cn", "hiemma.cn", "peagame.net"][parseInt(Math.random() * 3)];
-            window.shareData.timeLineLink = "http://uinote.com/html-game/games/blglez";
+            window.shareData.timeLineLink = "http://g.ohayo.cyou/games/blglez";
 
             function dp_submitScore(score, iswin) {
                 myData.score = score;
@@ -229,7 +229,7 @@
                 if (localStorage.myuid && myData.score != undefined && myData.iswin == 1) {
                     setTimeout(function () {
                         if (confirm("要将成绩提交到每日游戏排行榜吗？")) {
-                            window.location = "http://uinote.com/html-game/";
+                            window.location = "http://g.ohayo.cyou/";
                         } else {
                             document.location.href = mebtnopenurl;
                         }

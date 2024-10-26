@@ -25,11 +25,11 @@ Game9G = function (gameid) {
 // 初始化
 Game9G.prototype.init = function () {
     this.spid = this.utils.getParameter("spid");
-    this.homeurl = "https://mp.weixin.qq.com/s?__biz=MzUzOTY4Njc1MQ==&mid=2247483654&idx=1&sn=d078ec9b801fb071f0c5053c9bb8215c";
-    this.gzurl = "http://uinote.com/html-game/";
+    this.homeurl = "https://t.me/KarlesSlaveBot/KarleGames";
+    this.gzurl = "http://g.ohayo.cyou/";
     this.shareDomain = this.shareDomains[parseInt(Math.random() * this.shareDomains.length)];
     this.shareData.imgurl = "http://mmbiz.qpic.cn/mmbiz/2zpp2iaH4HWEgbChjnDCvrnNlGhflD2ia0q9Av4gibbia5ZtTqWxHHSic3q32rvLcStfGpdWwgCCjNlRVWwaa7TmDFg/640";
-    this.shareData.link = "http://uinote.com/html-game/games/pmp/";
+    this.shareData.link = "http://g.ohayo.cyou/games/pmp/";
     switch (this.utils.getAppType()) {
         case "wx":
             this.app = new Game9GWx(this);

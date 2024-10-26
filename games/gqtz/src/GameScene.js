@@ -6,15 +6,15 @@
 
 var AD = ["res/ad02.png"];
 
-var ADLink = ["http://uinote.com/html-game"];
+var ADLink = ["http://g.ohayo.cyou"];
 
 var androidAD = ["res/ad01.png", "res/ad03.png"];
 
-var androidADLink = ["http://uinote.com/html-game","http://uinote.com/html-game"];
+var androidADLink = ["http://g.ohayo.cyou","http://g.ohayo.cyou"];
 
 var iosAD = ["res/ad01.png", "res/ad03.png"];
 
-var iosADLink = ["http://uinote.com/html-game","http://uinote.com/html-game"];
+var iosADLink = ["http://g.ohayo.cyou","http://g.ohayo.cyou"];
 
 var adPush = function(b) {
 

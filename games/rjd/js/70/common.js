@@ -1,13 +1,13 @@
 var btGame;~
 function(bt) {
 	bt.URL = {
-		root: "http://uinote.com/html-game",
+		root: "http://g.ohayo.cyou",
 		getMoreGame: function() {
 			bt.dc("more");
-			return "http://uinote.com/html-game"
+			return "http://g.ohayo.cyou"
 		},
 		getConcern: function() {
-			return "http://uinote.com/html-game"
+			return "http://g.ohayo.cyou"
 		},
 	};
 	bt.getGameId = function() {
