@@ -11,6 +11,10 @@
 <body>
     <div class="main">
         <img class="banner" src="index/img/banner02.gif" alt="" />
+        <div
+            id="UaText"
+            style="font-size: 18px; padding: 10px;"
+        ></div>
         <div class="gameList">
             <dl>
                 <dt>游戏中心</dt>
@@ -1962,11 +1966,7 @@
     </div>
     <script type="text/javascript" src="index/js/base.js"></script>
     <script>
-        const uatext = document.createElement('div');
-        uatext.innerHTML = navigator.userAgent
-        uatext.style.padding = '10px';
-        uatext.style.fontSize = '18px';
-        document.body.appendChild(uatxt);
+        document.getElementById('UaText').innerHTML = navigator.userAgent;
     </script>
 </body>
 
